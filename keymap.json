@@ -46,5 +46,17 @@
         "up" 
       ] 
     } 
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "g r": "vim::PushReplaceWithRegister"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "g shift-r": "vim::PushReplaceWithRegister"
+    }
   }
 ]
