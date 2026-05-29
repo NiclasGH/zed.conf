@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "enable_feedback": false,
+    "favorite_models": [],
+    "single_file_review": true,
+    "model_parameters": []
+  },
   "cli_default_open_behavior": "new_window",
   "which_key": {
     "enabled": true
@@ -27,7 +33,7 @@
     "toggle_relative_line_numbers": true
   },
   "restore_on_startup": "launchpad",
-  "disable_ai": true,
+  "disable_ai": false,
   "telemetry": {
     "diagnostics": true,
     "metrics": false
